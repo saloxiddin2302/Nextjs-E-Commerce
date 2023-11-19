@@ -170,6 +170,7 @@ export default function UsersP() {
             loading={loading}
             dataSource={users}
             columns={columns}
+            loadingIndicator={<img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Loading_2.gif?20170503175831" alt="loading"/>}
           />
         ) : (
           <div className="flex items-center justify-center w-full h-screen">
