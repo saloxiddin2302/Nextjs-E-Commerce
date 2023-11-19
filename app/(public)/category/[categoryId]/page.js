@@ -1,6 +1,6 @@
 "use client";
 
-import { KORZINA, LIMIT } from "../../../../const";
+import { KORZINA, LIMIT } from "../../../../const/const";
 import { setLengthKorzina } from "../../../../redux/slice/authSlice";
 import { request } from "../../../../server/request";
 import { Button, Pagination, Select, message } from "antd";

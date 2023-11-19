@@ -12,7 +12,7 @@ import {
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { getLocalStorage } from "../../const/const";
-import { deleteCookie } from "cookies-next";
+import { deleteCookie, getCookie } from "cookies-next";
 
 function getItem(label, key, icon, children) {
   return {
@@ -48,7 +48,7 @@ export default function AdminLayout({ children }) {
 
   const [collapsed, setCollapsed] = useState();
 
-  const token = getLocalStorage();
+  const token = getCookie('token');
 
   useEffect(() => {
     if (!token) {
