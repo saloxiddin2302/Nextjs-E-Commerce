@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 import { Table, Button, Modal, Form, Input, message, Spin } from "antd";
 import { request } from "../../server/request";
-import AdminLayout from "../admin/page";
+import AdminLayout from "../adminLayout";
 
 export default function UsersP() {
   const [users, setUsers] = useState([]);

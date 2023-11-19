@@ -7,7 +7,7 @@ import { EditOutlined, DeleteOutlined } from "@ant-design/icons";
 import Image from "next/image";
 
 import TextArea from "antd/es/input/TextArea";
-import AdminLayout from "../admin/adminLayout";
+import AdminLayout from "../adminLayout";
 
 const Products = () => {
   const [products, setProducts] = useState([]);

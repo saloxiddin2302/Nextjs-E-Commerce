@@ -8,7 +8,7 @@ import { DeleteOutlined, EditOutlined } from "@ant-design/icons";
 
 import { request } from "../../server/request";
 import Image from "next/image";
-import AdminLayout from "../admin/page";
+import AdminLayout from "../adminLayout";
 
 export default function UsersP() {
   const [categories, setCategories] = useState([]);
