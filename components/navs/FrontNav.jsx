@@ -36,7 +36,7 @@ const FrontNav = () => {
   return (
     <div className="z-10 flex items-center justify-between py-4 text-lg text-white bg-whitem sm:py-5 containr">
       <div className="text-[23px] font-semibold">
-        <Link href="/">Voha Parfum</Link>
+        <Link href="/">VODIY PARFUM |</Link>
       </div>
       <ul
         style={{ transition: "0.3s" }}

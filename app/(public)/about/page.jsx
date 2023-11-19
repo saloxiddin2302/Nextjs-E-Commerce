@@ -4,30 +4,7 @@ const AboutPage = () => {
   return (
     <div className="pt-10 containr">
       <section className="flex justify-between bg-white bg-opacity-20 backdrop-blur-md rounded-md p-6 sm:p-14 md:flex-row flex-col gap-11">
-        <div>
-          <h3 className="text-xs sm:text-sm font-semibold">Our mision</h3>
-          <h2 className="py-2 font-semibold text-2xl">
-            Creating valuable content for creatives all around the world
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Non
-            blandit massa enim nec. Scelerisque viverra mauris in aliquam sem.
-            At risus viverra adipiscing at in tellus.
-          </p>
-        </div>
-        <div>
-          <h3 className="text-xs sm:text-sm font-semibold">Our Vision</h3>
-          <h2 className="py-2 font-semibold text-2xl">
-            A platform that empowers individuals to improve
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Non
-            blandit massa enim nec. Scelerisque viverra mauris in aliquam sem.
-            At risus viverra adipiscing at in tellus.
-          </p>
-        </div>
+        
       </section>
       <section>
         <div className="flex my-10 justify-between bg-white bg-opacity-20 backdrop-blur-md rounded-md items-center gap-10 flex-col md:flex-row">
