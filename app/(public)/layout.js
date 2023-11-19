@@ -19,7 +19,7 @@ const layout = ({ children }) => {
         className="fixed top-0 left-0 w-screen h-screen pt-20 overflow-y-scroll text-white "
       >
         <main>{children}</main>
-        <footer className="bg-white rounded-md containr bg-opacity-20 backdrop-blur-md p-7">
+        <footer className="bg-black rounded-md containr bg-opacity-20 backdrop-blur-md p-7">
           <FrontFooter />
         </footer>
       </div>

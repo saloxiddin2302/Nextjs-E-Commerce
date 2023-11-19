@@ -14,7 +14,7 @@
 }
 
 .md .ant-btn{
-  background: blue;
+  background: rgb(77, 255, 0);
   color: white;
 }
 .md .ant-btn:hover{
@@ -25,7 +25,7 @@
   color: white !important;
 }
 .ant-pagination-item-active a{
-  color: blue !important;
+  color: rgb(55, 255, 0) !important;
 }
 
 .ant-pagination-item-link,.title .ant-btn{

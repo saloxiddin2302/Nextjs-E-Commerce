@@ -27,7 +27,7 @@ export default async function HomePage() {
         <h2 className="text-center text-2xl sm:text-[34px] py-3 font-semibold">
           Yangi Mahsulotlar
         </h2>
-        <div className="p-5 bg-white rounded containr bg-opacity-10 backdrop-blur-md">
+        <div className="p-5 bg-black rounded containr bg-opacity-10 backdrop-blur-md">
           <Carusel products={latestProducts} />
         </div>
       </div>

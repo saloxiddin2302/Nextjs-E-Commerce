@@ -141,7 +141,7 @@ const CategoryPage = () => {
         {products?.products?.map((pr) => (
           <div
             key={pr._id}
-            className="bg-white cart bg-opacity-20 backdrop-blur-md text-white rounded p-0.5 border-black"
+            className="bg-black cart bg-opacity-20 backdrop-blur-md text-white rounded p-0.5 border-black"
           >
             <Image
               src={pr?.image?.url}
@@ -163,7 +163,7 @@ const CategoryPage = () => {
               <p className="py-1 m-0">Narx: {pr?.price}</p>
               <Button
                 onClick={() => addProduct(pr)}
-                className="px-3 py-1 bg-white rounded bg-opacity-20 backdrop-blur-md"
+                className="px-3 py-1 bg-white rounded bg-opacity-20 "
               >{`Qo'shish`}</Button>
             </div>
           </div>

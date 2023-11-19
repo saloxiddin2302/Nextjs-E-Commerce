@@ -49,7 +49,7 @@ const Login = () => {
       <h2 className="py-5 text-4xl font-semibold text-center containr">
         LogIn
       </h2>
-      <div className="p-10 bg-white rounded-md containr register bg-opacity-20 backdrop-blur-md lg:px-40 md:px-20">
+      <div className="p-10 bg-black rounded-md containr register bg-opacity-20 backdrop-blur-md lg:px-40 md:px-20">
         <Form
           name="login"
           onFinish={login}
@@ -80,7 +80,7 @@ const Login = () => {
           <Button
             loading={loading}
             htmlType="submit"
-            className="w-1/3 h-10 mx-auto my-3 text-lg bg-white "
+            className="w-1/3 h-10 mx-auto my-3 text-lg bg-lime "
           >
             Login
           </Button>

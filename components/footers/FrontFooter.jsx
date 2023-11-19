@@ -6,7 +6,7 @@ const FrontFooter = () => {
         <div className="flex gap-4 text-2xl">
           <link rel="stylesheet" href="https://www.instagram.com/saloxiddin2302/" />
           <i className="fa-brands fa-instagram hover:scale-110 cursor-pointer text-pink-600"></i>
-          <i className="fa-brands fa-telegram hover:scale-110 cursor-pointer text-green-500"></i>
+          <i className="fa-brands fa-telegram hover:scale-110 cursor-pointer text-blue-500"></i>
           <i className="fa-brands fa-youtube hover:scale-110 cursor-pointer text-red-500"></i>
           <i className="fa-brands fa-facebook hover:scale-110 cursor-pointer bg-blue-700 rounded-full"></i>
         </div>

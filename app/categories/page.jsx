@@ -115,7 +115,7 @@ export default function UsersP() {
     <AdminLayout>
       <main className="pt-2 containr">
         {categories.length !== 0 ? (
-          <div className="flex flex-wrap items-center justify-between gap-2 px-3 py-2 text-white bg-white rounded-md title bg-opacity-20 backdrop-blur-md">
+          <div className="flex flex-wrap items-center justify-between gap-2 px-3 py-2 text-white bg-black rounded-md title bg-opacity-20 backdrop-blur-md">
             <h2 className="text-xl">All Categories</h2>
             <Button onClick={openUserModal}>Add</Button>
           </div>
