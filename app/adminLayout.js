@@ -11,7 +11,7 @@ import {
 } from "@ant-design/icons";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { getLocalStorage } from "../../const/const";
+// import { getLocalStorage } from "../../const/const";
 import { deleteCookie, getCookie } from "cookies-next";
 
 function getItem(label, key, icon, children) {

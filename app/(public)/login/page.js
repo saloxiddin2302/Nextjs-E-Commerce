@@ -26,7 +26,6 @@ const Login = () => {
         dispatch(setAuth());
         request.defaults.headers.Authorization = `Bearer ${accesstoken}`;
       } else {
-        console.log(role);
         router.push("/");
         setCookie(TOKEN, accesstoken);
         dispatch(setAuth());

@@ -28,7 +28,7 @@
     "app/admin/users/page.jsx",
     "app/products/page.jsx",
     "app/dashboard/page.jsx",
-    "app/admin/page.jsx"
+    "app/admin/adminLayout.js"
   ],
   "exclude": ["node_modules"]
 }

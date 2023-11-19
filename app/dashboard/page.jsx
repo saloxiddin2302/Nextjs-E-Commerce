@@ -1,5 +1,5 @@
 import { Image } from "antd";
-import AdminLayout from "../admin/page";
+import AdminLayout from "../admin/adminLayout";
 
 const page = () => {
   return (
