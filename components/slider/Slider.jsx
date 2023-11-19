@@ -34,7 +34,7 @@ const Carusel = ({ products }) => {
           return (
             <div
               key={pr}
-              className="bg-white backdrop-blur-md bg-opacity-20 rounded"
+              className="bg-black backdrop-blur-md bg-opacity-20 rounded"
             >
               <Image
                 src={pr?.image?.url}

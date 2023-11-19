@@ -1,6 +1,6 @@
 const FrontFooter = () => {
   return (
-    <div className="flex justify-between gap-3 md:px-10 sm:flex-row flex-col items-center sm:items-start sm:text-left text-center">
+    <div className="flex justify-between bg-blue gap-3 md:px-10 sm:flex-row flex-col items-center sm:items-start sm:text-left text-center">
       <div>
         <h3 className="font-semibold text-xl pb-2">Biz haqimizda</h3>
         <div className="flex gap-4 text-2xl">

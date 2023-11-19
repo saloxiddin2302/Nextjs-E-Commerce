@@ -83,7 +83,7 @@ const FrontNav = () => {
           <li>
             <Link
               href="/account"
-              className="px-3 py-1 text-black bg-white rounded"
+              className="px-3 py-1 text-white bg-black rounded"
             >
               Account
             </Link>

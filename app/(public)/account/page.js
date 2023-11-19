@@ -17,7 +17,7 @@ const AccountPage = () => {
     },
   ];
   return (
-    <div className="p-5 pt-5 bg-black rounded-md containr bg-opacity-20 backdrop-blur-md ">
+    <div className="p-5 pt-5 bg-black rounded-md containr bg-opacity-20  ">
       <Tabs defaultActiveKey="1" items={items} className="text-white" />
     </div>
   );
