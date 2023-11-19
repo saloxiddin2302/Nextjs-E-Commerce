@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.containr{
+  width: 90%;
+  margin: 0 auto;
+}
+@media (min-width:1700px){
+  .containr{
+    width: 1600px;
+  }
+}
+
+.md .ant-btn{
+  background: blue;
+  color: white;
+}
+.md .ant-btn:hover{
+  color: white !important;
+}
+
+.ant-pagination-item a{
+  color: white !important;
+}
+.ant-pagination-item-active a{
+  color: blue !important;
+}
+
+.ant-pagination-item-link,.title .ant-btn{
+  color: white !important;
+}
+
+.account label{
+  color: white !important;
+  font-size: 18px !important;
+}
+
+.cart .ant-btn:hover{
+  color: black !important;
+  border-color: white !important;
+  transform: scale(1.01);
+}
+
+.ant-select-selector{
+  display: none !important; 
+}
